@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class Ship
     attr_reader :name, :type, :booty
     
@@ -19,8 +19,8 @@ class Ship
         @@all_ships = []
     end
 end
-=======
+
 class Ship < ActiveRecord::Base
   belongs_to :pirate
 end
->>>>>>> cd5ae845bb430781c85eb68b3af8006d67ad7cc6
+
