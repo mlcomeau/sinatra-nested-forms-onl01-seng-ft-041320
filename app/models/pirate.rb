@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Pirate
     attr_accessor :name, :weight, :height
     
@@ -16,8 +15,8 @@ class Pirate
     end
 
 end
-=======
+
 class Pirate < ActiveRecord::Base
   has_many :ships
 end
->>>>>>> cd5ae845bb430781c85eb68b3af8006d67ad7cc6
+
