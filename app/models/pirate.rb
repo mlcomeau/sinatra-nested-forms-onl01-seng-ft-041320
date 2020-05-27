@@ -1,6 +1,6 @@
 class Pirate
     attr_accessor :name, :weight, :height
-    
+
     @@all_pirates = []
 
     def initialize(params)
@@ -19,4 +19,3 @@ end
 class Pirate < ActiveRecord::Base
   has_many :ships
 end
-
